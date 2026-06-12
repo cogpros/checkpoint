@@ -1,6 +1,6 @@
 ---
 name: checkpoint
-version: "0.2.0"
+version: "0.2.1"
 description: "Use when: (1) the user says 'checkpoint' or 'summary and checkpoint' mid-session, (2) a visible state pulse is needed without closing the session, (3) a natural break point needs 'where am I, what did I just do, what's next' answered in one beat. Composes an open-items sweep + next-step pick + session delta + deadline clock into an emoji-formatted dashboard. Ephemeral display only — no writes, no events, no session close. NOT for: end-of-session closure, thread compression, or one-off recall."
 author: "Dustin Pollock"
 license: "MIT"
@@ -162,19 +162,6 @@ Stop. Don't ask "want me to do X next." Don't pitch follow-up skills. The dashbo
 
 ⛵ **Ship state:** clean
 ```
-
-## Verification
-
-Before delivering, confirm:
-- [ ] Open-items sweep and next-step pick both ran (or one explicitly skipped with reason)
-- [ ] Deadlines file was read (or noted missing)
-- [ ] Section order matches spec
-- [ ] No empty sections present
-- [ ] Loose ends carry their category tags
-- [ ] Nameable line is specific, or honestly "Nothing nameable yet"
-- [ ] Ship state is exactly one word and matches the rubric
-- [ ] No file writes happened
-- [ ] Output ends at the dashboard — no follow-up prompts, no offers
 
 ## Known Limitations & Gotchas
 

@@ -117,6 +117,7 @@ None are required. The skill degrades gracefully to inline sweeps.
 
 - **0.1.0** (2026-04-30) — initial renderer: built/audited/wired + loose ends + next + ship state.
 - **0.2.0** (2026-06-12) — Clock section, loose-end category tags, Nameable line, ship-state rubric, depleted protocol.
+- **0.2.1** (2026-06-12) — slimmed to primitive register per the skill-design doctrine (strictness follows the deficit); verification checklist folded into Rules.
 
 Planned: configurable extra count-file sources for the Clock (surface any integer state your stack exposes as a one-line presence marker).
 
